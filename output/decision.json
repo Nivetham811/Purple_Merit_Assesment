@@ -1,0 +1,35 @@
+{
+    "decision": "PAUSE",
+    "rationale": {
+        "metrics": {
+            "conversion_rate": "declining",
+            "dau": "declining",
+            "retention_d1": "declining",
+            "crash_rate": "improving",
+            "latency_p95": "improving",
+            "payment_success": "declining",
+            "support_tickets": "improving"
+        },
+        "sentiment": {
+            "positive": 22,
+            "negative": 3,
+            "overall": "positive"
+        }
+    },
+    "risk_register": [
+        "High crash rate",
+        "Negative user feedback"
+    ],
+    "action_plan": [
+        {
+            "owner": "Engineering",
+            "task": "Fix crashes"
+        },
+        {
+            "owner": "Backend",
+            "task": "Reduce latency"
+        }
+    ],
+    "communication_plan": "Notify users about fixes",
+    "confidence_score": 0.8
+}
